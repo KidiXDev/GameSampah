@@ -21,16 +21,22 @@ public class ObjectGrabber : MonoBehaviour
         {
             rb = gameObject.AddComponent<Rigidbody2D>();
         }
-        rb.gravityScale = 0f; // No gravity until grabbed
+        rb.gravityScale = 0f;
         rb.freezeRotation = true;
 
-        // Ensure there is a Collider2D and it is set to trigger
         Collider2D col = GetComponent<Collider2D>();
         if (col == null)
         {
             col = gameObject.AddComponent<BoxCollider2D>();
         }
         col.isTrigger = true;
+
+        if (col is BoxCollider2D boxCol)
+        {
+            Vector2 size = boxCol.size;
+            size.x *= 1.5f;
+            boxCol.size = size;
+        }
     }
 
     void OnMouseDown()
@@ -96,6 +102,13 @@ public class ObjectGrabber : MonoBehaviour
         string tempatSampahTag = other.tag;
         string tagSampah = gameObject.tag;
 
+        if (other.CompareTag("FallPoint"))
+        {
+            Debug.Log("Waduh, sampah jatoh ke FallPoint!");
+            Destroy(gameObject);
+            return;
+        }
+
         if (tagSampah == other.gameObject.tag || tagSampah == other.gameObject.tag)
         {
             return;
@@ -109,7 +122,7 @@ public class ObjectGrabber : MonoBehaviour
             if (!isGrabbed)
             {
                 Destroy(gameObject);
-                Debug.Log("Sampah sesuai tempatnya dibuang!");
+                // Debug.Log("Sampah sesuai tempatnya dibuang!");
             }
         }
         else
@@ -118,7 +131,7 @@ public class ObjectGrabber : MonoBehaviour
             {
                 isOverCorrectBin = false;
                 currentBinCollider = null;
-                Debug.Log("Sampah salah tempat, gak dibuang!");
+                // Debug.Log("Sampah salah tempat, gak dibuang!");
             }
         }
     }

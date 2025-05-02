@@ -5,7 +5,7 @@ public class ObjectSpawner : MonoBehaviour
     [SerializeField]
     private GameObject spawnPoint;
     [SerializeField]
-    private GameObject[] objectPrefabs; // Changed from Sprite[] to GameObject[] for prefabs
+    public GameObject[] objectPrefabs; // Changed from Sprite[] to GameObject[] for prefabs
     [SerializeField]
     private float initialSpawnInterval = 6f;
     [SerializeField]
@@ -48,7 +48,7 @@ public class ObjectSpawner : MonoBehaviour
         currentSpeed = Mathf.Min(currentSpeed + speedIncreaseRate * Time.deltaTime, maxSpeed);
         ObjectMover.CurrentSpeed = currentSpeed;
 
-        Debug.Log("Current Speed: " + currentSpeed);
+        // Debug.Log("Current Speed: " + currentSpeed);
     }
 
 
