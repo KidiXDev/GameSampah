@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TrashGame.sln"
+    "dotnet.defaultSolution": "GameSampah.sln"
 }
