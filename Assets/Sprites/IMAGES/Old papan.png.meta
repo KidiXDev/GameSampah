@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e6e4c479bd7ecb44869dc206a039e52
+guid: a1f0a1a9308f5bf4ebe472b96d71fb26
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -14,15 +14,6 @@ TextureImporter:
   - first:
       213: 33363725635070822
     second: Untitled-2_3
-  - first:
-      213: 2607614108378703750
-    second: Untitled-2_4
-  - first:
-      213: 2647721087300645799
-    second: Untitled-2_5
-  - first:
-      213: 4444117454920247000
-    second: Untitled-2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,10 +125,10 @@ TextureImporter:
       name: Untitled-2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 452
-        width: 442
-        height: 1254
+        x: 326
+        y: 588
+        width: 1325
+        height: 1218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +147,10 @@ TextureImporter:
       name: Untitled-2_1
       rect:
         serializedVersion: 2
-        x: 439
-        y: 1080
-        width: 509
-        height: 622
+        x: 335
+        y: 1213
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +169,10 @@ TextureImporter:
       name: Untitled-2_2
       rect:
         serializedVersion: 2
-        x: 918
-        y: 1080
-        width: 438
-        height: 622
+        x: 376
+        y: 708
+        width: 9
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +191,10 @@ TextureImporter:
       name: Untitled-2_3
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 1080
-        width: 517
-        height: 629
+        x: 488
+        y: 606
+        width: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,77 +209,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Untitled-2_4
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 421
-        width: 452
-        height: 653
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 687a531473b103420800000000000000
-      internalID: 2607614108378703750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_5
-      rect:
-        serializedVersion: 2
-        x: 890
-        y: 421
-        width: 498
-        height: 647
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a3bdd8fc489eb420800000000000000
-      internalID: 2647721087300645799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_6
-      rect:
-        serializedVersion: 2
-        x: 1439
-        y: 421
-        width: 485
-        height: 649
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d662a0874dacad30800000000000000
-      internalID: 4444117454920247000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -302,9 +227,6 @@ TextureImporter:
       Untitled-2_1: -4548455104902304520
       Untitled-2_2: -340510569268801026
       Untitled-2_3: 33363725635070822
-      Untitled-2_4: 2607614108378703750
-      Untitled-2_5: 2647721087300645799
-      Untitled-2_6: 4444117454920247000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: 2e6e4c479bd7ecb44869dc206a039e52
+guid: ad28452a050d68440b5bf5ae872e3697
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5392625257635239999
-    second: Untitled-2_0
+      213: -6817289209351581461
+    second: papan 2_0
   - first:
-      213: -4548455104902304520
-    second: Untitled-2_1
+      213: 3764175619215870917
+    second: papan 2_1
   - first:
-      213: -340510569268801026
-    second: Untitled-2_2
-  - first:
-      213: 33363725635070822
-    second: Untitled-2_3
-  - first:
-      213: 2607614108378703750
-    second: Untitled-2_4
-  - first:
-      213: 2647721087300645799
-    second: Untitled-2_5
-  - first:
-      213: 4444117454920247000
-    second: Untitled-2_6
+      213: 5746208165073578671
+    second: papan 2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -131,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled-2_0
+      name: papan 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 452
-        width: 442
-        height: 1254
+        x: 783
+        y: 1986
+        width: 53
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c72ad746eb8925b0800000000000000
-      internalID: -5392625257635239999
+      spriteID: be0de79659f1461a0800000000000000
+      internalID: -6817289209351581461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled-2_1
+      name: papan 2_1
       rect:
         serializedVersion: 2
-        x: 439
-        y: 1080
-        width: 509
-        height: 622
+        x: 36
+        y: 0
+        width: 1928
+        height: 1837
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fc6c7b4e24a0e0c0800000000000000
-      internalID: -4548455104902304520
+      spriteID: 5cb4c8f38c90d3430800000000000000
+      internalID: 3764175619215870917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled-2_2
+      name: papan 2_2
       rect:
         serializedVersion: 2
-        x: 918
-        y: 1080
-        width: 438
-        height: 622
+        x: 1419
+        y: 1701
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,96 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef1977cf073464bf0800000000000000
-      internalID: -340510569268801026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_3
-      rect:
-        serializedVersion: 2
-        x: 1414
-        y: 1080
-        width: 517
-        height: 629
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66bacd6b128867000800000000000000
-      internalID: 33363725635070822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_4
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 421
-        width: 452
-        height: 653
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 687a531473b103420800000000000000
-      internalID: 2607614108378703750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_5
-      rect:
-        serializedVersion: 2
-        x: 890
-        y: 421
-        width: 498
-        height: 647
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a3bdd8fc489eb420800000000000000
-      internalID: 2647721087300645799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled-2_6
-      rect:
-        serializedVersion: 2
-        x: 1439
-        y: 421
-        width: 485
-        height: 649
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d662a0874dacad30800000000000000
-      internalID: 4444117454920247000
+      spriteID: faae8a4a1e1aebf40800000000000000
+      internalID: 5746208165073578671
       vertices: []
       indices: 
       edges: []
@@ -288,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -298,13 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled-2_0: -5392625257635239999
-      Untitled-2_1: -4548455104902304520
-      Untitled-2_2: -340510569268801026
-      Untitled-2_3: 33363725635070822
-      Untitled-2_4: 2607614108378703750
-      Untitled-2_5: 2647721087300645799
-      Untitled-2_6: 4444117454920247000
+      papan 2_0: -6817289209351581461
+      papan 2_1: 3764175619215870917
+      papan 2_2: 5746208165073578671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
